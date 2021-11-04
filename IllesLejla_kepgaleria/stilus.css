@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body {
+  background-color: sienna;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: whitesmoke;
+  color: maroon;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+
+  grid-gap: 10px;
+  text-align: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+img {
+  width: 100%;
+}
